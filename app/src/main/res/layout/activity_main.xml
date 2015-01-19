@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?android:attr/actionBarSize"-->
+    <!--android:background="?attr/colorPrimary"-->
+    <!--android:elevation="4dp"-->
+    <!--android:title="@string/app_name"-->
+    <!--android:transitionName="actionBar"/>-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/toolbar">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_code_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:context=".CountryActivity"
+            />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <!--<ProgressBar-->
+        <!--android:layout_below="@id/toolbar"-->
+        <!--android:id="@+id/progressbar"-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--android:padding="72dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+    <ImageButton
+        android:id="@+id/fab_button"
+        android:transitionName="fab"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/fab_horizontal_margin"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="-28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_round"
+        android:stateListAnimator="@anim/fab_anim"
+        android:elevation="8dp"
+        android:padding="14dp"
+        android:scaleType="fitCenter"
+        android:onClick="addCodeItem"/>
+    <ImageView
+        android:id="@+id/image_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fab_button"/>
+</RelativeLayout>

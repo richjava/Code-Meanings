@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Code Meanings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_edit">Add Code</string>
+
+    <string name="hint_code">Enter code</string>
+    <string name="hint_meaning">Enter the meaning</string>
+    <string-array name="array_type">
+        <item>Java</item>
+        <item>Javascript</item>
+        <item>Internet slang</item>
+        <item>PHP</item>
+    </string-array>
+    <string name="gt">&gt;</string>
+</resources>

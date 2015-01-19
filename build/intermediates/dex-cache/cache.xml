@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-2c0274830bb707e99d5a13734515c2f5a269ae99.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0-ea268dc39f338f572631b19e0a0d99e1626f76ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0-2959ff885b9d64e4b9babd36f134b8f038353828.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\exploded-aar\com.mikepenz.iconics\library\0.6.6\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ca10eb0f203db02f31215e806b9c50d565de587e">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\classes-c5fb81af0bb71e88bae0b5409fcd96d2faf365d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-966994c7df2554d48ad67b1c2ed21cb6e2a054c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.19.0-ab5c7f068ceb572b08ca53d2add6389046c0a194.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.0\6a21277d9bebe267b7ddee028b241eebc756c040\google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\google-api-client-1.19.0-bd29cb549b09b01a4eb0d7b5abc724d3ce33ff98.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\classes-8c6d65a32f9d2c665ec42137712e757a8e5bce56.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.17.0-rc\3696033c14cc5ce68fe3ac818bade2707df9c2cd\google-http-client-gson-1.17.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3696033c14cc5ce68fe3ac818bade2707df9c2cd">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\google-http-client-gson-1.17.0-rc-44cdbfe18d50cd4874429e5ab9b62c98b82adb04.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\classes-9d009808d947b6299b738e3d59d5a5a4beb83d40.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-de14b9d2578da01393ff372dc8bdd588954ae0d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\backend\build\libs\backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4b1d08c7843c40003c19ddfd3fcbdb4033edbe8">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\backend-android-endpoints-cd2623d7ee9209f18cdaa6093695f71fd42199da.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\google-http-client-1.19.0-a5a037c2ed548246c1145c5da9ceabd867f10139.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.0\ba2aafb867f6af469f936ae76426cf0a280094bd\google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.19.0-fb0268cf63fa94e0f2d77ed596e76bc4c24b53ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-bd717c18ea581f5f4383a83db02da85647f31b93.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\classes-c7e3a10b17153c60c5e60e6b2d63381a9462c21a.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\org.roboguice\roboguice\3.0.1\24e814f35d5cc28eaa7e9f07a50ea69deeb2b544\roboguice-3.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="24e814f35d5cc28eaa7e9f07a50ea69deeb2b544">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\roboguice-3.0.1-1a51663c2159dfa566a6124abbce4a69dac63918.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\gson-2.1-2399f54ed0a6921620a2439010baec9f296d9fe1.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\classes-6b95be87dfafbcbad30d22e05418c9aaaaa3372e.jar" />
+    </item>
+    <item
+        jar="C:\Users\richard_lovell\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\richard_lovell\AndroidStudioProjects\CodeMeanings\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-ce5f99da74644ae25a4e517478fd26957a450feb.jar" />
+    </item>
+
+</items>
