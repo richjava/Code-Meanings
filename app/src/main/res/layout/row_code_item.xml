@@ -13,15 +13,6 @@
         android:background="#000"
         android:elevation="3dp"
         android:orientation="vertical">
-        <ImageView
-            android:transitionName="userImage"
-            android:id="@+id/userImage"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
-            android:padding="4dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ic_launcher"
-            android:clickable="false" />
         <TextView android:id="@+id/text_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
