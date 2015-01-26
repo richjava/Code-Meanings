@@ -6,17 +6,6 @@
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"/>
-
-
-
-    <!--<android.support.v7.widget.Toolbar-->
-    <!--android:id="@+id/toolbar"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="?android:attr/actionBarSize"-->
-    <!--android:background="?attr/colorPrimary"-->
-    <!--android:elevation="4dp"-->
-    <!--android:title="@string/app_name"-->
-    <!--android:transitionName="actionBar"/>-->
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_container"
         android:layout_width="match_parent"
@@ -27,18 +16,9 @@
             android:id="@+id/recycler_code_items"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
-            tools:context=".CountryActivity"
-            />
+            tools:context=".CountryActivity"/>
 
     </android.support.v4.widget.SwipeRefreshLayout>
-    <!--<ProgressBar-->
-        <!--android:layout_below="@id/toolbar"-->
-        <!--android:id="@+id/progressbar"-->
-        <!--style="?android:attr/progressBarStyleLarge"-->
-        <!--android:padding="72dp"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"/>-->
     <ImageButton
         android:id="@+id/fab_button"
         android:transitionName="fab"

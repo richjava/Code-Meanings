@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.richjavalabs.codemeanings.AddEditActivity">
+    tools:context="com.richjavalabs.codemeanings.activity.AddEditActivity">
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"/>
@@ -18,15 +18,22 @@
         android:layout_centerInParent="true"
         >
         <LinearLayout
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/activity_horizontal_margin"
-
-
             android:background="#000"
             android:elevation="3dp"
             android:orientation="vertical">
+            <ImageView
+                android:transitionName="userImage"
+                android:id="@+id/userImage"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher"
+                android:clickable="false"
+                />
             <EditText
                 android:id="@+id/edit_code"
                 android:layout_width="match_parent"
