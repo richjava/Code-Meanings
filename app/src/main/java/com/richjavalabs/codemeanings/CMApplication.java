@@ -9,7 +9,7 @@ import android.content.res.Configuration;
  */
 public class CMApplication extends Application {
 
-    public static final String APP_ENGINE_APP_NAME = "global-matrix-825";
+    public static final String APP_ENGINE_APP_NAME = "your-app-engine-app-id";
 
     @Override
     public void onCreate() {
