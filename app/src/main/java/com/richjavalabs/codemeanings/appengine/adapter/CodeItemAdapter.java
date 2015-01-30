@@ -1,4 +1,4 @@
-package com.richjavalabs.codemeanings.adapter;
+package com.richjavalabs.codemeanings.appengine.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.richjavalabs.backend.codeItemApi.model.CodeItem;
 import com.richjavalabs.codemeanings.R;
-import com.richjavalabs.codemeanings.activity.MainActivity;
+import com.richjavalabs.codemeanings.appengine.activity.MainActivity;
 
 import java.util.List;
 

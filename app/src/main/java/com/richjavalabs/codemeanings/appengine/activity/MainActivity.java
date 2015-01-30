@@ -1,4 +1,4 @@
-package com.richjavalabs.codemeanings.activity;
+package com.richjavalabs.codemeanings.appengine.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -33,13 +33,12 @@ import com.richjavalabs.backend.codeItemApi.model.CodeItem;
 import com.richjavalabs.backend.codeItemApi.model.CollectionResponseCodeItem;
 import com.richjavalabs.codemeanings.CMApplication;
 import com.richjavalabs.codemeanings.R;
-import com.richjavalabs.codemeanings.adapter.CodeItemAdapter;
-import com.richjavalabs.codemeanings.tasks.RemoveCodeItemTask;
+import com.richjavalabs.codemeanings.appengine.adapter.CodeItemAdapter;
+import com.richjavalabs.codemeanings.appengine.tasks.RemoveCodeItemTask;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import roboguice.activity.RoboActionBarActivity;
 import roboguice.inject.ContentView;

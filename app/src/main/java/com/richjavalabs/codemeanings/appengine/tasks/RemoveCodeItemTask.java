@@ -1,4 +1,4 @@
-package com.richjavalabs.codemeanings.tasks;
+package com.richjavalabs.codemeanings.appengine.tasks;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -9,7 +9,6 @@ import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import com.richjavalabs.backend.codeItemApi.CodeItemApi;
-import com.richjavalabs.backend.codeItemApi.model.CodeItem;
 import com.richjavalabs.codemeanings.CMApplication;
 
 import java.io.IOException;
@@ -17,23 +16,22 @@ import java.io.IOException;
 /**
  * Created by richard_lovell on 1/24/2015.
  */
-public class UpdateCodeItemTask extends AsyncTask<Void, Void, CodeItem> {
+public class RemoveCodeItemTask extends AsyncTask<Void, Void, Boolean> {
     private static CodeItemApi apiService = null;
     private Context context;
-    private CodeItem codeItem;
+    private long codeItemId;
 
-    public UpdateCodeItemTask(CodeItem codeItem, Context context) {
-        this.codeItem = codeItem;
+    public RemoveCodeItemTask(long codeItemId, Context context) {
+        this.codeItemId = codeItemId;
         this.context = context;
     }
 
     @Override
-    protected CodeItem doInBackground(Void... params) {
+    protected Boolean doInBackground(Void... params) {
         if (apiService == null) {  // Only do this once
             //options for devappserver
             CodeItemApi.Builder builder = new CodeItemApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
-
                     //genymotion
                     .setRootUrl("http://10.0.3.2:8080/_ah/api/")
                             //android emulator
@@ -47,21 +45,23 @@ public class UpdateCodeItemTask extends AsyncTask<Void, Void, CodeItem> {
                     });
             apiService = builder.build();
         }
+        boolean isDeleted = false;
         try {
-            apiService.update(codeItem.getId(),codeItem).execute();
+            apiService.remove(codeItemId).execute();
+            isDeleted = true;
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return codeItem;
+        return isDeleted;
     }
 
 
 
 
     @Override
-    protected void onPostExecute(CodeItem quote) {
-        if(quote != null) {
-            Toast.makeText(context, "Code Item updated", Toast.LENGTH_SHORT).show();
+    protected void onPostExecute(Boolean isDeleted) {
+        if(isDeleted) {
+            Toast.makeText(context, "Code Item deleted", Toast.LENGTH_SHORT).show();
         }else{
             Toast.makeText(context, "CodeItem is null!", Toast.LENGTH_LONG).show();
         }
